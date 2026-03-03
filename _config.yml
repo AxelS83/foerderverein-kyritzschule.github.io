@@ -21,12 +21,12 @@ plugins:
 - jemoji
 
 # Site settings
-url: 'https://mydomain.com'
-baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+url: "https://AxelS83.github.io"
+baseurl: "/foerderverein-kyritzschule.github.io"
+title: "Förderverein der Kyritzschule Darmstadt e.V."
+description: "Der Förderverein der Kyritzschule Darmstadt e.V. unterstützt schulische Projekte und Gemeinschaft."
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: "/pictures/logo.png" # null #"https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
 
 # Pagination
 paginate: 5
@@ -34,17 +34,23 @@ paginate_path: blog/page:num
 
 # Header nav
 navigation_header:
-- title: Home
+- title: Über uns
   url: /
-- title: About
-  url: /about/
-- title: Blog
+- title: Mitglied werden
+  url: /mitglied/
+- title: Spenden
+  url: /spenden/ 
+- title: Projekte
   url: /blog/
+- title: Kontakt
+  url: /kontakt/
 
 # Footer nav
 navigation_footer:
-- title: Back to top
-  url: "#top"
+#- title: Back to top
+#  url: "#top"
+- title: Impressum
+  url: /impressum/
 
 # Collections
 collections:

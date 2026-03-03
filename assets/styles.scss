@@ -1,0 +1,31 @@
+---
+# Front matter nötig, damit Jekyll SCSS verarbeitet
+---
+
+@import "alembic";
+
+/* --- Custom overrides: Hero/Feature Lesbarkeit --- */
+
+/* Container bleibt ohne Hintergrund */
+.feature .container{
+  background: transparent;
+  padding: 0; /* optional */
+}
+
+/* Box nur um den Text */
+.feature__text {
+  display: inline-block;
+  background: rgba(40, 40, 40, 0.70);
+  padding: 1.25rem 1.75rem;
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+/* Text weiß */
+.feature__text,
+.feature__text h1,
+.feature__text h2,
+.feature__text h3,
+.feature__text p {
+  color: #fff !important;
+}
