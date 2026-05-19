@@ -26,7 +26,7 @@ baseurl: "/foerderverein-kyritzschule.github.io"
 title: "Förderverein der Kyritzschule Darmstadt e.V."
 description: "Der Förderverein der Kyritzschule Darmstadt e.V. unterstützt schulische Projekte und Gemeinschaft."
 permalink: pretty
-logo: "/pictures/logo.png" # null #"https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: null
 
 # Pagination
 paginate: 5
@@ -35,15 +35,15 @@ paginate_path: blog/page:num
 # Header nav
 navigation_header:
 - title: Über uns
-  url: /
+  url: /#ueber-uns
 - title: Mitglied werden
-  url: /mitglied/
+  url: /#mitglied-werden
 - title: Spenden
-  url: /spenden/ 
+  url: /#spenden
 - title: Projekte
-  url: /blog/
+  url: /#projekte
 - title: Kontakt
-  url: /kontakt/
+  url: /#kontakt
 
 # Footer nav
 navigation_footer:
@@ -69,10 +69,10 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: post # Set the default layout for posts
+      layout: post
   -
     scope:
       path: ""
       type: "pages"
     values:
-      layout: page # Set the default layout for pages
+      layout: page

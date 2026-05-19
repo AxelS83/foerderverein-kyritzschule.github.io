@@ -4,7 +4,34 @@
 
 @import "alembic";
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* --- Custom overrides: Hero/Feature Lesbarkeit --- */
+
+.header {
+  position: static;
+  padding-top: 4.25rem;
+}
+
+.header > .container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  width: 100%;
+  max-width: none;
+  background: #fffdf9;
+  border-bottom: 1px solid #e3d8c8;
+  box-shadow: 0 2px 12px rgba(45, 42, 38, 0.08);
+}
+
+.header > .container .nav {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Container bleibt ohne Hintergrund */
 .feature .container{
@@ -12,20 +39,209 @@
   padding: 0; /* optional */
 }
 
-/* Box nur um den Text */
-.feature__text {
+/* Box nur um die Header-Ueberschrift */
+.feature .container h2,
+.feature .container h3 {
   display: inline-block;
   background: rgba(40, 40, 40, 0.70);
-  padding: 1.25rem 1.75rem;
   border-radius: 12px;
   max-width: 100%;
 }
 
+.feature .container h2 {
+  padding: 1.25rem 1.75rem;
+}
+
+.feature .container h3 {
+  padding: 0.75rem 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
 /* Text weiß */
-.feature__text,
-.feature__text h1,
-.feature__text h2,
-.feature__text h3,
-.feature__text p {
+.feature .container h2,
+.feature .container h3 {
   color: #fff !important;
+}
+
+.footer,
+.footer a,
+.footer .small {
+  font-size: 0.8rem;
+}
+
+.header .logo {
+  display: none;
+}
+
+.header .container {
+  justify-content: flex-end;
+}
+
+.header .nav {
+  margin-left: auto;
+}
+
+.contact-card {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 18px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.form-field {
+  display: grid;
+  gap: 0.45rem;
+  font-weight: 600;
+  color: #2d2a26;
+}
+
+.form-field-full {
+  grid-column: 1 / -1;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1px solid #c8ced8;
+  border-radius: 12px;
+  background: #fff;
+  color: #1f1b16;
+}
+
+.form-field input[type="file"] {
+  padding: 0.7rem 1rem;
+}
+
+.form-field small {
+  font-weight: 400;
+  color: #5f6673;
+}
+
+.form-field textarea {
+  resize: vertical;
+  min-height: 12rem;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: 2px solid #8c5d1f;
+  outline-offset: 2px;
+  border-color: #8c5d1f;
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.button--secondary {
+  background: transparent;
+  color: #5c4930;
+  box-shadow: inset 0 0 0 1px #bda989;
+}
+
+.button--secondary:hover,
+.button--secondary:focus {
+  background: #efe5d8;
+}
+
+.onepage-section {
+  scroll-margin-top: 5rem;
+  padding: 3rem 0;
+  border-bottom: 1px solid #e3d8c8;
+}
+
+.onepage-section:first-of-type {
+  padding-top: 0;
+}
+
+.onepage-section:last-of-type {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.section-divider {
+  margin: 2.5rem 0;
+  border: 0;
+  border-top: 1px solid #e3d8c8;
+}
+
+.section-divider--strong {
+  border-top-width: 3px;
+  border-top-color: #c9baa3;
+}
+
+.project-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.project-item {
+  padding: 1.25rem;
+  border: 1px solid #ddd2bf;
+  border-radius: 8px;
+  background: #fffdf9;
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
+.section-picker {
+  display: grid;
+  gap: 0.75rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.section-picker a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #ddd2bf;
+  border-radius: 8px;
+  background: #fffdf9;
+  text-decoration: none;
+}
+
+.picker-check {
+  display: inline-grid;
+  width: 1.5rem;
+  height: 1.5rem;
+  place-items: center;
+  border-radius: 50%;
+  background: #5c4930;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+@media (max-width: 640px) {
+  .contact-card {
+    padding: 1.25rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-field-full {
+    grid-column: auto;
+  }
 }
