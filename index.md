@@ -28,7 +28,7 @@ Wir möchten dort helfen, wo es den größten Unterschied für unsere Kinder mac
   (z. B. Bücher, Experimentierkästen, Sportgeräte)
 - Klassen- und Schulprojekte unterstützen  
   (z. B. Theateraufführungen, Projekttage, Wettbewerbe)
-- Kulturelle und sportliche Aktivitäten fördern  
+- Kulturelle und sportliche Aktivitäten fördern 
   damit Kinder vielfältige Erfahrungen sammeln können
 - Veranstaltungen und Feste mitorganisieren  
   (z. B. Sommerfest, Flohmarkt, Adventsbasar)
@@ -42,7 +42,7 @@ So schaffen wir Gelegenheiten und Erlebnisse, die den Schulalltag bereichern und
 
 ## Mitglied werden
 
-Als Förderverein brauchen wir nicht nur Mittel, die wir weitergeben und einsetzen können, sondern auch Personen, die aktiv im Verein sind. Hier können unten den Mitgliedsantrag und die Beitragsordnung runterladen. Für eine Mitgliedschaft füllen die den Mitgliedsantrag aus und lassen uns diesem über den Briefkasten des Fördervereins (Eingang der Schule an der Emilstraße), persönlich oder auch digital (Emailadresse im Impressum) zukommen. 
+Als Förderverein brauchen wir nicht nur Mittel, die wir weitergeben und einsetzen können, sondern auch Personen, die aktiv im Verein sind. Sie können unten den Mitgliedsantrag und die Beitragsordnung runterladen. Für eine Mitgliedschaft füllen Sie den Mitgliedsantrag aus und lassen uns diesen über den Briefkasten des Fördervereins (Eingang der Schule an der Emilstraße), persönlich oder auch digital (Emailadresse im Impressum) zukommen. 
 Sollten sie die digitale Variante wählen, stellen sie bitte sicher, dass der Antrag formal unterschrieben ist und eine eindeutige Zuordnung möglich ist.
 
 Mit Ihrer Unterstützung können wir Projekte ermöglichen, die ohne zusätzliche Mittel nicht möglich wären.
