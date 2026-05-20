@@ -21,8 +21,8 @@ plugins:
 - jemoji
 
 # Site settings
-url: "https://AxelS83.github.io"
-baseurl: "/foerderverein-kyritzschule.github.io"
+url: "https://foerderverein-kyritzschule.de"
+baseurl: ""
 title: "Förderverein der Kyritzschule Darmstadt e.V."
 description: "Der Förderverein der Kyritzschule Darmstadt e.V. unterstützt schulische Projekte und Gemeinschaft."
 permalink: pretty
