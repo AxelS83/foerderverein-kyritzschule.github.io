@@ -16,7 +16,7 @@ Email: foerderverein-kyritzschule@web.de<br>
 
 #### Vorstand
 Erster Vorsitzender: Axel Sielaff<br>
-Zweiter Vorsitzender: Marcel Ebner<br>
+Zweiter Vorsitzender: Marcel Heber<br>
 Kassenwart: Joachim Schmitt<br>
 
 #### Verantwortlich für den Inhalt <br>
