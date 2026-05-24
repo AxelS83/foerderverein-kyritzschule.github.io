@@ -61,11 +61,10 @@ Mit Ihrer Unterstützung können wir Projekte ermöglichen, die ohne zusätzlich
 
 Gerne können Sie uns auch über die betterplace-Plattform eine einmalige oder regelmäßige Spende zukommen lassen. Ob groß oder klein - **jeder Beitrag zählt** und macht einen Unterschied.
 
-<p>
-  <a class="button" href="https://www.betterplace.org/de/projects/180045?utm_campaign=user_share&utm_medium=ppp_sticky&utm_source=Link&utm_content=bp" target="_blank" rel="noopener noreferrer">Zur betterplace Seite</a>
-</p>
-
-<script async="async" type="text/javascript" src="https://www.betterplace.org/de/widgets/overlays/Gdr1CyEybpK_et2z3tSnHnA7.js"></script>
+<div class="donation-actions">
+  <script async="async" type="text/javascript" src="https://www.betterplace.org/de/widgets/overlays/Gdr1CyEybpK_et2z3tSnHnA7.js"></script>
+  <a class="button button--small" href="https://www.betterplace.org/de/projects/180045?utm_campaign=user_share&utm_medium=ppp_sticky&utm_source=Link&utm_content=bp" target="_blank" rel="noopener noreferrer">Zur betterplace Seite</a>
+</div>
 
 </section>
 
