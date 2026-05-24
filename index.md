@@ -61,6 +61,8 @@ Mit Ihrer Unterstützung können wir Projekte ermöglichen, die ohne zusätzlich
 
 Gerne können Sie uns auch über die betterplace-Plattform eine einmalige oder regelmäßige Spende zukommen lassen. Ob groß oder klein - **jeder Beitrag zählt** und macht einen Unterschied.
 
+<script async="async" type="text/javascript" src="https://www.betterplace.org/de/widgets/overlays/Gdr1CyEybpK_et2z3tSnHnA7.js"></script>
+
 </section>
 
 <section id="projekte" class="onepage-section" markdown="1">
