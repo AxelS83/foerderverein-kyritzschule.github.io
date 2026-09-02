@@ -1,0 +1,31 @@
+{% assign seo_keywords = page.keywords | default: site.keywords %}
+{% assign organization_logo = site.logo | default: "/pictures/logo.png" | absolute_url %}
+{% assign organization_url = "/" | absolute_url %}
+
+{% if seo_keywords %}
+<meta name="keywords" content="{{ seo_keywords | join: ', ' | escape }}">
+{% endif %}
+<meta name="geo.region" content="DE-HE">
+<meta name="geo.placename" content="{{ site.address.city | default: 'Darmstadt' | escape }}">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  "name": {{ site.title | jsonify }},
+  "alternateName": "Förderverein Kyritzschule",
+  "url": {{ organization_url | jsonify }},
+  "logo": {{ organization_logo | jsonify }},
+  "email": "mailto:{{ site.email }}",
+  "description": {{ site.description | jsonify }},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ site.address.street | jsonify }},
+    "postalCode": {{ site.address.postal_code | jsonify }},
+    "addressLocality": {{ site.address.city | jsonify }},
+    "addressRegion": {{ site.address.region | jsonify }},
+    "addressCountry": {{ site.address.country | jsonify }}
+  },
+  "areaServed": {{ site.address.city | jsonify }},
+  "knowsAbout": {{ site.keywords | jsonify }}
+}
+</script>

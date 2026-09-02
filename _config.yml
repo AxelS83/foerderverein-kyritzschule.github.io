@@ -23,10 +23,45 @@ plugins:
 # Site settings
 url: "https://foerderverein-kyritzschule.de"
 baseurl: ""
+lang: "de-DE"
+timezone: "Europe/Berlin"
 title: "Förderverein der Kyritzschule Darmstadt e.V."
-description: "Der Förderverein der Kyritzschule Darmstadt e.V. unterstützt schulische Projekte und Gemeinschaft."
+description: "Schulprojekte, Lernmaterialien und Gemeinschaft an der Kyritzschule in Darmstadt."
 permalink: pretty
-logo: null
+logo: "/pictures/logo.png"
+image: "/pictures/header.png"
+email: "foerderverein-kyritzschule@web.de"
+
+address:
+  street: "Emilstraße 10"
+  postal_code: "64289"
+  city: "Darmstadt"
+  region: "Hessen"
+  country: "DE"
+
+keywords:
+- "Förderverein"
+- "Kyritzschule"
+- "Kyritzschule Darmstadt"
+- "Förderverein Kyritzschule Darmstadt"
+- "Darmstadt"
+- "Grundschule"
+- "Schule"
+- "Schulförderverein"
+- "Elternverein"
+- "Schulprojekte"
+- "Lernmaterialien"
+- "Spenden"
+- "Mitglied werden"
+- "Schulgemeinschaft"
+- "Emilstraße"
+
+manifest:
+  lang: "de-DE"
+  name: "Förderverein der Kyritzschule Darmstadt e.V."
+  short_name: "FV Kyritzschule"
+  theme_color: "#5c4930"
+  background_color: "#fffdf9"
 
 # Pagination
 paginate: 5
@@ -55,12 +90,12 @@ navigation_footer:
 # Collections
 collections:
   posts:
-    title: Posts
+    title: Aktuelles
     output: true
-    description: "My thoughts and ideas"
+    description: "Aktuelle Projekte, Veranstaltungen und Neuigkeiten des Fördervereins der Kyritzschule Darmstadt e.V."
     feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+      Aktuelles aus dem Förderverein
+    feature_image: "/pictures/header.png"
 
 # Collection settings
 defaults:

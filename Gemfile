@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.4"
 gem "alembic-jekyll-theme"
+gem "tzinfo-data", platforms: [:windows, :jruby]
 
 group :jekyll_plugins do
   gem "jekyll-commonmark"

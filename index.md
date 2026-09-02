@@ -1,10 +1,22 @@
 ---
-title:
+title: "Förderverein der Kyritzschule Darmstadt e.V."
+description: "Der Förderverein der Kyritzschule Darmstadt e.V. unterstützt Projekte, Lernmaterialien, Feste und Gemeinschaft an der Kyritzschule."
 permalink: /
+image: "/pictures/header.png"
+keywords:
+- "Förderverein Kyritzschule Darmstadt"
+- "Kyritzschule"
+- "Darmstadt"
+- "Schulförderverein"
+- "Schulprojekte"
+- "Lernmaterialien"
+- "Spenden"
+- "Mitglied werden"
+- "Elternverein"
+- "Grundschule"
 feature_image: "pictures/header.png"
 feature_text: |
-  ## Förderverein Kyritzschule Darmstadt e.V.
-  ### Gemeinsam mehr Erreichen - für unsere Kinder
+  ## Gemeinsam mehr erreichen - für unsere Kinder
 ---
 
 <section id="ueber-uns" class="onepage-section" markdown="1">
@@ -16,7 +28,7 @@ Wir sind der **Förderverein der Kyritzschule Darmstadt e.V.** - ein Zusammensch
 Nachdem die Kyritzschule 2025 organisatorisch von der Goetheschule Darmstadt getrennt wurde, war klar:  
 Es braucht einen eigenen Förderverein, der sich ausschließlich für die Belange unserer Schule einsetzt.
 
-Im Mai 2026 konnten wir die Gründung formall abschließen und freuen uns mit den ersten Projekten starten zu können.
+Im Mai 2026 konnten wir die Gründung formal abschließen und freuen uns, mit den ersten Projekten starten zu können.
 
 <hr class="section-divider section-divider--strong">
 
@@ -28,7 +40,7 @@ Wir möchten dort helfen, wo es den größten Unterschied für unsere Kinder mac
   (z. B. Bücher, Experimentierkästen, Sportgeräte)
 - Klassen- und Schulprojekte unterstützen  
   (z. B. Theateraufführungen, Projekttage, Wettbewerbe)
-- Kulturelle und sportliche Aktivitäten fördern 
+- Kulturelle und sportliche Aktivitäten fördern,  
   damit Kinder vielfältige Erfahrungen sammeln können
 - Veranstaltungen und Feste mitorganisieren  
   (z. B. Sommerfest, Flohmarkt, Adventsbasar)
@@ -42,8 +54,8 @@ So schaffen wir Gelegenheiten und Erlebnisse, die den Schulalltag bereichern und
 
 ## Mitglied werden
 
-Als Förderverein brauchen wir nicht nur Mittel, die wir weitergeben und einsetzen können, sondern auch Personen, die aktiv im Verein sind. Sie können unten den Mitgliedsantrag und die Beitragsordnung runterladen. Für eine Mitgliedschaft füllen Sie den Mitgliedsantrag aus und lassen uns diesen über den Briefkasten des Fördervereins (Eingang der Schule an der Emilstraße), persönlich oder auch digital (Emailadresse im Impressum) zukommen. 
-Sollten sie die digitale Variante wählen, stellen sie bitte sicher, dass der Antrag formal unterschrieben ist und eine eindeutige Zuordnung möglich ist.
+Als Förderverein brauchen wir nicht nur Mittel, die wir weitergeben und einsetzen können, sondern auch Personen, die aktiv im Verein sind. Sie können unten den Mitgliedsantrag und die Beitragsordnung herunterladen. Für eine Mitgliedschaft füllen Sie den Mitgliedsantrag aus und lassen uns diesen über den Briefkasten des Fördervereins (Eingang der Schule an der Emilstraße), persönlich oder auch digital (E-Mail-Adresse im Impressum) zukommen. 
+Sollten Sie die digitale Variante wählen, stellen Sie bitte sicher, dass der Antrag formal unterschrieben ist und eine eindeutige Zuordnung möglich ist.
 
 Mit Ihrer Unterstützung können wir Projekte ermöglichen, die ohne zusätzliche Mittel nicht möglich wären.
 
@@ -57,7 +69,7 @@ Mit Ihrer Unterstützung können wir Projekte ermöglichen, die ohne zusätzlich
 
 <section id="spenden" class="onepage-section" markdown="1">
 
-# Spenden
+## Spenden
 
 Gerne können Sie uns auch über die betterplace-Plattform eine einmalige oder regelmäßige Spende zukommen lassen. Ob groß oder klein - **jeder Beitrag zählt** und macht einen Unterschied.
 

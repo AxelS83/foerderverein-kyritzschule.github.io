@@ -1,6 +1,8 @@
 ---
 title: Danke
 permalink: /kontakt/danke/
+indexing: false
+sitemap: false
 feature_image: "https://commons.wikimedia.org/wiki/Special:FilePath/School%20classroom%20Lezo%20herri%20eskola.jpg"
 feature_text: |
   ## Vielen Dank für Ihre Nachricht
